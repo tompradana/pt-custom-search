@@ -1,0 +1,67 @@
+.pt-custom-search,
+.pt-custom-search * {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.pt-custom-search {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.pt-custom-search form {
+    display: flex;
+}
+
+.pt-custom-search input[name="guest_name"] {
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    border-radius: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #111111;
+    width: 100%;
+    font-family: inherit;
+    margin: 0;
+}
+
+.pt-custom-search button[type="submit"] {
+    border: 1px solid purple;
+    color: #ffffff;
+    background-color: purple !important;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: inherit;
+    margin: 0;
+    min-width: 150px;
+}
+
+.pt-custom-search .guest {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 15px;
+}
+
+.pt-custom-search .view-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 80%;
+    display: inline-block;
+    color: #ffffff;
+    background-color: purple;
+    padding: 10px 20px;
+}
+
+.pt-custom-search .guest-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
